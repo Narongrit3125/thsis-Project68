@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 212 90% 33%;  /* #0056a6 */
+  --primary-foreground: 211 100% 99%;
+  --secondary: 48 100% 50%;  /* #ffcc00 */
+  --secondary-foreground: 24 9.8% 10%;
+  --accent: 24 100% 50%;  /* #ff6b00 */
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-neutral-light text-foreground;
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  .font-heading {
+    font-family: 'Prompt', sans-serif;
+  }
+
+  .font-welcome {
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+@layer components {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .welcome-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .flying-paper {
+    animation: float 8s ease-in-out infinite;
+  }
+
+  .animation-delay-1 {
+    animation-delay: 1s;
+  }
+
+  .animation-delay-2 {
+    animation-delay: 2s;
+  }
+
+  .news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
+  .carousel-item {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .bg-primary {
+    background-color: #0056a6;
+  }
+
+  .bg-primary-light {
+    background-color: #1a6ebd;
+  }
+
+  .bg-primary-dark {
+    background-color: #004080;
+  }
+
+  .bg-secondary {
+    background-color: #ffcc00;
+  }
+
+  .bg-secondary-light {
+    background-color: #ffdc4d;
+  }
+
+  .bg-secondary-dark {
+    background-color: #e6b800;
+  }
+
+  .bg-accent {
+    background-color: #ff6b00;
+  }
+
+  .bg-neutral-light {
+    background-color: #f4f7fb;
+  }
+
+  .text-primary {
+    color: #0056a6;
+  }
+
+  .text-primary-light {
+    color: #1a6ebd;
+  }
+
+  .text-primary-dark {
+    color: #004080;
+  }
+
+  .text-secondary {
+    color: #ffcc00;
+  }
+
+  .text-accent {
+    color: #ff6b00;
+  }
+
+  .text-neutral-dark {
+    color: #2c3e50;
+  }
+
+  .border-primary {
+    border-color: #0056a6;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(5deg); }
+}
