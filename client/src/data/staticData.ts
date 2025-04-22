@@ -41,7 +41,7 @@ export const carouselItems = [
   {
     title: "กิจกรรมนิสิต",
     description: "ส่งเสริมการทำกิจกรรมนอกห้องเรียน เพื่อพัฒนาทักษะทางสังคมและภาวะผู้นำให้กับนิสิต",
-    image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    image: "https://scontent.fbkk22-3.fna.fbcdn.net/v/t39.30808-6/488037834_1088007570037826_285037747883193054_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_ohc=e_XSNvORM6wQ7kNvwFsF8FM&_nc_oc=AdmIJ3Dz-4EkL8FRJffPnsOtLHo-cfROv8faYDjDth1U7xz8PgljkQqOJXy7XlDmW7w&_nc_zt=23&_nc_ht=scontent.fbkk22-3.fna&_nc_gid=wfHrXLHy7BORQCebXfVFJg&oh=00_AfFKTW8nnCYImpllrhHiV9kKaJQrocIbo0_BrErGJGaYuw&oe=680D8787"
   },
   {
     title: "สิ่งแวดล้อมที่เอื้อต่อการเรียนรู้",
@@ -56,38 +56,33 @@ export const departments = [
     name: "ภาควิชาเคมี",
     description: "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเคมี และสาขาวิชาเคมีอุตสาหกรรม พร้อมระดับบัณฑิตศึกษา",
     icon: "fas fa-flask",
-    link: "#"
+    link: "https://chemistry.sci.nu.ac.th/"
   },
   {
     name: "ภาควิชาคณิตศาสตร์",
     description: "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาคณิตศาสตร์ และสาขาวิชาสถิติ พร้อมระดับบัณฑิตศึกษา",
     icon: "fas fa-calculator",
-    link: "#"
+    link: "https://math.sci.nu.ac.th/"
   },
   {
     name: "ภาควิชาฟิสิกส์",
     description: "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาฟิสิกส์ และสาขาวิชาฟิสิกส์ประยุกต์ พร้อมระดับบัณฑิตศึกษา",
     icon: "fas fa-atom",
-    link: "#"
+    link: "https://sites.google.com/nu.ac.th/physics"
   },
   {
     name: "ภาควิชาชีววิทยา",
     description: "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาชีววิทยา และสาขาวิชาจุลชีววิทยา พร้อมระดับบัณฑิตศึกษา",
     icon: "fas fa-dna",
-    link: "#"
+    link: "https://biologynu.com/"
   },
   {
-    name: "ภาควิชาวิทยาการคอมพิวเตอร์",
-    description: "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ และสาขาวิชาเทคโนโลยีสารสนเทศ",
+    name: "ภาควิชาวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ",
+    description: "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์และสาขาวิชาเทคโนโลยีสารสนเทศ",
     icon: "fas fa-laptop-code",
-    link: "#"
+    link: "https://csit.nu.ac.th/"
   },
-  {
-    name: "ภาควิชาอื่นๆ",
-    description: "ภาควิชาอื่นๆ ในคณะวิทยาศาสตร์ ได้แก่ ธรณีวิทยา วิทยาศาสตร์สิ่งแวดล้อม และวิทยาศาสตร์การกีฬา",
-    icon: "fas fa-microscope",
-    link: "#"
-  }
+
 ];
 
 // News Data

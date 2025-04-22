@@ -1,5 +1,8 @@
 import { Link } from "wouter";
 import { FlyingPaper } from "@/lib/AnimatedElements";
+import React from "react";
+import wb from "../assets/BG.jpg";
+
 
 export default function WelcomeBanner() {
   return (
@@ -9,7 +12,7 @@ export default function WelcomeBanner() {
       {/* Background with flying paper planes */}
       <div 
         className="relative h-[460px] md:h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80')" }}
+        style={{ backgroundImage: `url(${wb})` }}
       >
         
         {/* Flying paper elements */}
@@ -38,7 +41,7 @@ export default function WelcomeBanner() {
             <h2 className="font-welcome text-6xl md:text-7xl text-secondary mb-2">Welcome</h2>
             <div 
               className="bg-cover bg-center p-4 rounded-lg shadow-lg transform rotate-1 mb-6"
-              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1561365452-adb940139ffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')" }}
+              style={{ backgroundImage: "url('" }}
             >
               <h3 className="font-heading text-2xl md:text-3xl text-white">ยินดีต้อนรับนิสิตใหม่</h3>
               <h4 className="font-heading text-xl md:text-2xl text-white my-1">สู่...ร้ัวคณะวิทยาศาสตร์</h4>

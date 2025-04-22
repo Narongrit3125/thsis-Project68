@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
+import logo from "../assets/logo.jpg";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ export default function Header() {
           {/* Logo and University Name */}
           <div className="flex items-center space-x-2">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/th/8/89/Naresuan_University_Logo.svg" 
+              src={logo} 
               alt="มหาวิทยาลัยนเรศวร Logo" 
               className="h-12 w-12" 
             />

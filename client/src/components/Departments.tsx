@@ -19,7 +19,7 @@ export default function Departments() {
                 </div>
                 <h3 className="font-heading font-semibold text-xl text-primary mb-3">{dept.name}</h3>
                 <p className="text-gray-600 text-sm mb-4">{dept.description}</p>
-                <Link href={dept.link} className="text-accent hover:underline text-sm font-medium">ข้อมูลเพิ่มเติม</Link>
+                <a href={dept.link} className="text-accent hover:underline text-sm font-medium">ข้อมูลเพิ่มเติม</a>
               </div>
             </div>
           ))}
